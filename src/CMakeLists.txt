@@ -1,1 +1,3 @@
-add_library(${PROJECT_NAME} SHARED main.c)
+add_library(${PROJECT_NAME} SHARED 
+	
+	main.c)
