@@ -1,11 +1,11 @@
 #include "stdafx.h"
 
-__declspec(dllexport) void TeeLib_Init()
+__declspec(dllexport) int TeeLib_Init()
 {
 	printf("Started TeeLib :)\n");
 }
 
-__declspec(dllexport) void TeeLib_Destroy()
+__declspec(dllexport) int TeeLib_Destroy()
 {
-	printf("Good bye from TeeLibn\n");
+	printf("Good bye from TeeLib\n");
 }
